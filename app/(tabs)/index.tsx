@@ -1,9 +1,16 @@
-import { Text, View } from "react-native";
+import { images } from "@/constants/images";
+import { Image, Text, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl text-dark-200 font-bold">Welcome!</Text>
-    </View>
+    <>
+      <StatusBar hidden />
+      <View className="flex-1 bg-primary ">
+        <View style={{ flex: 1 }}>
+          <Image source={images.bg} />
+        </View>
+      </View>
+    </>
   );
 }
