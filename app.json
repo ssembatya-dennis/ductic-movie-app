@@ -14,8 +14,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/logo.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#030014"
       }
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#030014"
     },
     "web": {
       "bundler": "metro",
@@ -28,9 +32,9 @@
         "expo-splash-screen",
         {
           "image": "./assets/icons/logo.png",
-          "imageWidth": 200,
+          "imageWidth": 150,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#030014"
         }
       ]
     ],
